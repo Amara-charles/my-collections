@@ -1,0 +1,98 @@
+
+body {
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px 130px;
+    justify-content: space-between;
+    align-items: center;
+    color: oklch(0.21 0.034 264.665);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 10;
+}
+
+.nav-links a {
+    color: oklch(0.554 0.046 257.417);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: oklch(0.21 0.034 264.665);
+}
+
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.Buttons a {
+    text-decoration: none;
+}
+
+.Signup {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+.login {
+    color: black;
+}
+
+
+
+
+
+
+.carousel {
+width: 7000px;
+height: 350px;
+background: white;
+padding: 30px;
+overflow: hidden;
+border-radius: 5px;
+box-shadow: 0 20px 25px rgba(255, 255, 255, 0.566);
+
+/* center the carousel */
+margin: 0 auto;
+}
+
+.image-container {
+display: grid;
+grid-auto-flow: column;
+grid-auto-columns: 230px;
+gap: 35px;
+justify-items: stretch;
+
+animation: animation 12s linear infinite;
+}
+
+.image-container img {
+width: 230px;
+height: 290px;
+object-fit: cover;
+border-radius: 10px;
+border: 1px solid #777;
+}
+
+@keyframes animation {
+from {
+transform: translateX(0);
+}
+
+to {
+transform: translateX(-795px);
+}
+}
