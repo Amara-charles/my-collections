@@ -57,7 +57,7 @@ body {
 
 
 .carousel {
-width: 7000px;
+width: auto ;
 height: 350px;
 background: white;
 padding: 30px;
